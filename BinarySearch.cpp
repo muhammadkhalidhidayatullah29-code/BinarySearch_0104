@@ -46,6 +46,11 @@ void bubbleSortArray()
                 element[j] = element[j + 1];
                 element[j + 1] = temp;
             }
-        } pass++;
+        }
+         pass++;
     }  while (pass <= nPanjang - 1);
 }
+
+void display() 
+{
+    
